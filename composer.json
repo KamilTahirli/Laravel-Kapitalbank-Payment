@@ -11,7 +11,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "KamilTahirli\\laravel-kapitalbank-payment\\": "src/"
+      "kamilTahirli\\laravel-kapitalbank-payment\\": "src/"
     }
   }
 }
