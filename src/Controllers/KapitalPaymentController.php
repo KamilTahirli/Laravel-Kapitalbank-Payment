@@ -68,7 +68,7 @@ class KapitalPaymentController extends Controller
                 'status_code' => $statusCode,
                 'description' => $orderData['description'],
                 'currency' => $orderData['currencyCode'],
-                'date' => now(),
+                'date' => now()
             ]);
 
             $redirectUrl = $redirectUrl . "?ORDERID=" . $orderId . "&SESSIONID=" . $sessionId . '&';
