@@ -17,12 +17,5 @@
   },
   "config": {
     "sort-packages": true
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Tahirli\\Kapitalbank\\TahirliServiceProvider"
-      ]
-    }
   }
 }
