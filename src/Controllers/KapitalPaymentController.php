@@ -78,7 +78,6 @@ class KapitalPaymentController extends Controller
             Log::error($e->getMessage());
             return "Server xətası baş verdi";
         }
-
     }
 
 
