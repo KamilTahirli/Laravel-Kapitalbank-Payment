@@ -1,0 +1,17 @@
+{
+  "name": "KamilTahirli/laravel-kapitalbank-payment",
+  "description": "Laravel framework - u üçüm kapital bank payment sisteminin inteqrasiyası",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Kamil Tahirli",
+      "email": "tahirli587@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "KamilTahirli\\laravel-kapitalbank-payment\\": "src/"
+    }
+  }
+}
