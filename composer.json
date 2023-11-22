@@ -8,10 +8,15 @@
       "email": "tahirli587@gmail.com"
     }
   ],
-  "require": {},
+  "require": {
+    "php": "^7.3||^8.0", 
+    "illuminate/support": "^7.0||^8.0" 
+  },
   "autoload": {
     "psr-4": {
-      "kamilTahirli\\laravel-kapitalbank-payment\\": "src/"
+      "KamilTahirli\\LaravelKapitalbankPayment\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
