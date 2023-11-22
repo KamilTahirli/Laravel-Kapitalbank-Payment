@@ -15,10 +15,13 @@
       "kamilTahirli\\laravel-kapitalbank-payment\\": "src/"
     }
   },
+  "config": {
+    "sort-packages": true
+  },
   "extra": {
     "laravel": {
       "providers": [
-        "TahirliNamespace\\TahirliServiceProvider"
+        "Tahirli\\Kapitalbank\\TahirliServiceProvider"
       ]
     }
   }

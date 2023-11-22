@@ -1,6 +1,6 @@
 <?php
 
-namespace TahirliNamespace;
+namespace Tahirli\Kapitalbank;
 
 use Illuminate\Support\ServiceProvider;
 
