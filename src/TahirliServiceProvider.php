@@ -11,15 +11,11 @@ class TahirliServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot(): void
+    public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/payment.php', 'payment');
-
-        if ($this->app->runningInConsole()) {
-            $this->publishes([
-                __DIR__ . '/../config/payment.php' => config_path('payment.php'),
-            ], 'config');
-        }
+        $this->publishes([
+            __DIR__.'/config/payment.php' => config_path('payment.php'),
+        ]);
     }
 
     /**

@@ -12,10 +12,17 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "kamilTahirli\\laravel-kapitalbank-payment\\": "src/"
+      "Tahirli\\Kapitalbank\\": "src/"
     }
   },
   "config": {
     "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tahirli\\Kapitalbank\\TahirliServiceProvider"
+      ]
+    }
   }
 }
