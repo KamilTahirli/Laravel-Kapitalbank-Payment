@@ -17,6 +17,7 @@ class TahirliServiceProvider extends ServiceProvider
             __DIR__.'/config/payment.php' => config_path('payment.php'),
             __DIR__.'/Controllers/KapitalPaymentController.php' => app_path('Http/Controllers/KapitalPaymentController.php'),
         ]);
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
     }
 
     /**
