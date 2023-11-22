@@ -14,5 +14,12 @@
     "psr-4": {
       "kamilTahirli\\laravel-kapitalbank-payment\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TahirliNamespace\\TahirliServiceProvider"
+      ]
+    }
   }
 }
