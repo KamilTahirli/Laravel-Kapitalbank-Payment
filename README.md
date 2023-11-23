@@ -15,3 +15,4 @@ composer require kamil-tahirli/laravel-kapitalbank-payment
 php artisan vendor:publish --provider="Tahirli\Kapitalbank\TahirliServiceProvider"
 ```
 
+>dddd
