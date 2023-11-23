@@ -25,6 +25,6 @@ php artisan vendor:publish --provider="Tahirli\Kapitalbank\TahirliServiceProvide
 
 
 ###
-Sual yaranarsa, _tahirli587@gmail.com_ elektron poçtuna yaza bilərsiniz
+Suallarınız üçün, _tahirli587@gmail.com_ elektron poçtuna yaza bilərsiniz
 
 
