@@ -12,5 +12,5 @@ composer require kamil-tahirli/laravel-kapitalbank-payment
 **Daha sonra aşağıdakı komandanı daxil edərək vendor içindəki fayılları çölə çıxardım**
 
 ```
-php artisan vendor:publish --provider=""
+php artisan vendor:publish --provider="Tahirli\Kapitalbank\TahirliServiceProvider"
 ```
