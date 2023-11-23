@@ -2,8 +2,10 @@
 Laravel üçün kapital bank ödəniş sisteminin inteqrasiyası
 
 
-###Laravel proyektinizin kök qovluqları olan hissədə terminal ilə paketi qurun
+**Laravel proyektinizin kök qovluqları olan hissədə terminal ilə paketi qurun**
 
 
 ```
-composer require kamil-tahirli/laravel-kapitalbank-payment
+composer require kamil-tahirli/laravel-kapitalbank-payment'
+
+**Laravel proyektinizin kök qovluqları olan hissədə terminal ilə paketi qurun**
