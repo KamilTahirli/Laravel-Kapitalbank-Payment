@@ -6,6 +6,11 @@ Laravel üçün kapital bank ödəniş sisteminin inteqrasiyası
 
 
 ```
-composer require kamil-tahirli/laravel-kapitalbank-payment'
+composer require kamil-tahirli/laravel-kapitalbank-payment
+```
 
-**Laravel proyektinizin kök qovluqları olan hissədə terminal ilə paketi qurun**
+**Daha sonra aşağıdakı komandanı daxil edərək vendor içindəki fayılları çölə çıxardım**
+
+```
+php artisan vendor:publish --provider=""
+```
