@@ -7,4 +7,3 @@ Laravel proyektinizin kök qovluqları olan hissədə terminal ilə paketi qurun
 
 ```
 composer require kamil-tahirli/laravel-kapitalbank-payment
-'
